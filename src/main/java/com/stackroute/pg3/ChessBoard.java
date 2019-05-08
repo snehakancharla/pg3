@@ -24,18 +24,18 @@ public class ChessBoard {
     {
         String[][] array=new String[8][8];
 
-        for(int i=0;i<8;i++)
+        for(int rowvalue=0;rowvalue<8;rowvalue++)
         {
-            for(int j=0;j<8;j++)
+            for(int columnvalue=0;columnvalue<8;columnvalue++)
             {
-                if((i+j)%2==0)
-                {   array[i][j]="WW";
-                    System.out.print(array[i][j]+" | ");
+                if((rowvalue+columnvalue)%2==0)
+                {   array[rowvalue][columnvalue]="WW";
+                    System.out.print(array[rowvalue][columnvalue]+" | ");
                 }
                 else
                 {
-                    array[i][j]="BB";
-                    System.out.print(array[i][j]+" | ");
+                    array[rowvalue][columnvalue]="BB";
+                    System.out.print(array[rowvalue][columnvalue]+" | ");
                 }
             }
             System.out.println();

@@ -13,14 +13,14 @@ import java.util.Scanner;
 
 public class ConsecutiveNumbers {
     public static void main(String args[]) {
-        String s = "";
+        String userInputString = "";
 
         System.out.println("Enter the input numbers");
         Scanner scanner = new Scanner(System.in);
 
-        s = scanner.next();
+        userInputString = scanner.next();
 
-        String[] array = s.split(",");
+        String[] array = userInputString.split(",");
         int[] arr = new int[array.length];
         for (int i = 0; i < array.length; i++) {
             arr[i] = Integer.parseInt(array[i]);
@@ -37,15 +37,16 @@ public class ConsecutiveNumbers {
                 break;
             }
         }
+        //if the difference is 1 & should not -1
         if ( check==false && check1==true)
-            System.out.println(s + "are consecutive numbers");
+            System.out.println(userInputString + " are consecutive numbers");
+            //if the difference is -1 & should not 1
         else if( check1==false && check==true){
-            System.out.println(s + "are consecutive numbers");
+            System.out.println(userInputString + " are consecutive numbers");
         }
-        else if(check==false && check1==false){
-            System.out.println(s + "are non consecutive numbers");
-        }
+
+
         else
-            System.out.println(s + "are non consecutive numbers");
+            System.out.println(userInputString + " are non consecutive numbers");
     }
 }

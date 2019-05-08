@@ -16,39 +16,41 @@ import java.util.Scanner;
 public class AddTwoMatrix {
     public static void main(String args[])
     {
-        int m, n, c, d;
+        int rowNumber, columnNumber, c, d;
         Scanner in = new Scanner(System.in);
 
         System.out.println("Input number of rows of matrix");
-        m = in.nextInt();
+        rowNumber = in.nextInt();
         System.out.println("Input number of columns of matrix");
-        n  = in.nextInt();
+        columnNumber  = in.nextInt();
 
-        int first[][] = new int[m][n];
-        int second[][] = new int[m][n];
-        int sum[][] = new int[m][n];
+        int first[][] = new int[rowNumber][columnNumber];
+        int second[][] = new int[rowNumber][columnNumber];
+        int sum[][] = new int[rowNumber][columnNumber];
 
+        //taking input for first matrix
         System.out.println("Input elements of first matrix");
 
-        for (c = 0; c < m; c++)
-            for (d = 0; d < n; d++)
+        for (c = 0; c < rowNumber; c++)
+            for (d = 0; d < columnNumber; d++)
                 first[c][d] = in.nextInt();
 
+            //taking input for second matrix
         System.out.println("Input elements of second matrix");
 
-        for (c = 0 ; c < m ; c++)
-            for (d = 0 ; d < n ; d++)
+        for (c = 0 ; c < rowNumber ; c++)
+            for (d = 0 ; d < columnNumber ; d++)
                 second[c][d] = in.nextInt();
 
-        for (c = 0; c < m; c++)
-            for (d = 0; d < n; d++)
+        for (c = 0; c < rowNumber; c++)
+            for (d = 0; d < columnNumber; d++)
                 sum[c][d] = first[c][d] + second[c][d];  //replace '+' with '-' to subtract matrices
-
+        //sum of matrix
         System.out.println("Sum of the matrices:");
 
-        for (c = 0; c < m; c++)
+        for (c = 0; c < rowNumber; c++)
         {
-            for (d = 0; d < n; d++)
+            for (d = 0; d < columnNumber; d++)
                 System.out.print(sum[c][d]+"\t");
 
             System.out.println();

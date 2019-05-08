@@ -27,6 +27,7 @@ import java.util.Scanner;
 import java.util.Arrays;
 import java.util.List;
 
+//function to remove vowels in string
 public class RemoveVowels {
     static String remVowel(String str)
     {
@@ -34,18 +35,18 @@ public class RemoveVowels {
 
         List<Character> al = Arrays.asList(vowels);
 
-        StringBuffer sb = new StringBuffer(str);
+        StringBuffer bufferObject = new StringBuffer(str);
 
-        for (int i = 0; i < sb.length(); i++) {
+        for (int i = 0; i < bufferObject.length(); i++) {
 
-            if(al.contains(sb.charAt(i))){
-                sb.replace(i, i+1, "") ;
+            if(al.contains(bufferObject.charAt(i))){
+                bufferObject.replace(i, i+1, "") ;
                 i--;
             }
         }
 
 
-        return sb.toString();
+        return bufferObject.toString();
     }
     // Driver method to test the above function
     public static void main(String[] args)

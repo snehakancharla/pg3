@@ -25,11 +25,11 @@ class someMyexception extends Exception {
 public class TryCatchDemo {
     public static void main(String ar[]) {
         int number,number1;
-        System.out.println("Enter Number...");
+        System.out.println("Enter two  Number...");
         Scanner scanner = new Scanner(System.in);
 
 
-
+        //if user not entering interger it will raise exception
         try {
             number = scanner.nextInt();
             number1=scanner.nextInt();
