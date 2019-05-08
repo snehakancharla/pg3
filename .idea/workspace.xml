@@ -18,7 +18,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/pg3/StudentMarks.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
-              <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+              <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
               <folding>
                 <element signature="e#0#1805#0" expanded="true" />
               </folding>
@@ -89,7 +89,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/pg3/ConsecutiveNumbers.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
-              <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
               <folding>
                 <element signature="e#0#1700#0" expanded="true" />
               </folding>
@@ -118,6 +118,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -138,6 +141,7 @@
     <option name="width" value="1400" />
     <option name="height" value="833" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -198,6 +202,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -215,7 +220,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RemoveVowels">
+  <component name="RunManager" selected="Application.TryCatchDemo">
     <configuration name="AddFirstAndLastDate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.stackroute.pg3.AddFirstAndLastDate" />
       <module name="pg3" />
@@ -283,11 +288,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TryCatchDemo" />
         <item itemvalue="Application.RemoveVowels" />
         <item itemvalue="Application.AddFirstAndLastDate" />
         <item itemvalue="Application.AddTwoMatrix" />
         <item itemvalue="Application.ConsecutiveNumbers" />
-        <item itemvalue="Application.TryCatchDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -374,7 +379,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/pg3/StudentMarks.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
           <folding>
             <element signature="e#0#1805#0" expanded="true" />
           </folding>
@@ -394,7 +399,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/pg3/ConsecutiveNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
           <folding>
             <element signature="e#0#1700#0" expanded="true" />
           </folding>

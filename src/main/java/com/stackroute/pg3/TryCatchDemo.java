@@ -24,7 +24,7 @@ class someMyexception extends Exception {
 
 public class TryCatchDemo {
     public static void main(String ar[]) {
-        int number;
+        int number,number1;
         System.out.println("Enter Number...");
         Scanner scanner = new Scanner(System.in);
 
@@ -32,6 +32,9 @@ public class TryCatchDemo {
 
         try {
             number = scanner.nextInt();
+            number1=scanner.nextInt();
+            int result;
+            System.out.println(result=number+number1);
         }
         catch (Exception e) {
             someMyexception illegalInput = new someMyexception("Don't enter a string ...(Enter Integer Only)");
